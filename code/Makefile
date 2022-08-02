@@ -7,7 +7,7 @@ OMP_NUM_THREADS=2
 #${CC} analyze.c -o analyze ${CFLAGS} ${LDFLAGS}
 
 #generate_source: generate_source.c
-${CC} generate_source.c -o generate_source ${CFLAGS} ${LDFLAGS}
+	${CC} generate_source.c -o generate_source ${CFLAGS} ${LDFLAGS}
 
 #prober: prober.c
-${CC} prober.c -o prober ${CFLAGS} ${LDFLAGS}
+	${CC} prober.c -o prober ${CFLAGS} ${LDFLAGS}
